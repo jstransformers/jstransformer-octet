@@ -1,33 +1,23 @@
-# boilerplates
+# jstransformer-octet
 
-This is a boilerplate for new transformers.
+[Octet](https://github.com/tunnckoCore/octet) support for [JSTransformers](http://github.com/jstransformers/jstransformer).
 
-What you need to do:
-
-1. Add your name to `LICENSE.md` and `package.json`
-2. Activate Travis CI and Coveralls.
-3. Update module name in `package.json` and `README.md`
-4. Let the fun begin!
-
-# jstransformer-foo
-
-Transformer that converts a string to foo.
-
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-foo/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-foo?branch=master)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-octet/master.svg)](https://travis-ci.org/jstransformers/jstransformer-octet)
+[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-octet/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-octet?branch=master)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-octet.svg)](https://www.npmjs.org/package/jstransformer-octet)
 
 ## Installation
 
-    npm install jstransformer-foo
+    npm install jstransformer-octet
 
 ## API
 
 ```js
-var foo = require('jstransformer')(require('jstransformer-foo'))
+var octet = require('jstransformer')(require('jstransformer-foo'))
 
-foo.render('blah').body
-//=> 'blah'
+var locals = {user:{name:'John'}};
+foo.render('<p><%this.user.name%></p>', {}, locals).body
+//=> <p>John</p>
 ```
 
 ## License

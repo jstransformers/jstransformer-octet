@@ -1,9 +1,10 @@
 {
-  "name": "jstransformer-foo",
-  "version": "0.0.0",
-  "description": "A transformer that transforms a string into foo.",
+  "name": "jstransformer-octet",
+  "version": "0.0.1",
+  "description": "Octet support for JSTransformers",
   "keywords": [
-    "jstransformer"
+    "jstransformer",
+    "octet"
   ],
   "files": [
     "index.js"
@@ -18,8 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-foo.git"
+    "url": "https://github.com/jstransformers/jstransformer-octet.git"
   },
-  "author": "Your Name <email@example.com>",
-  "license": "MIT"
+  "author": "Rob Loach <robloach@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "merge": "^1.2.0",
+    "octet": "^1.0.1",
+    "promise": "^7.0.1"
+  }
 }
