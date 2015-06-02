@@ -2,7 +2,6 @@
 
 var octet = require('octet');
 var merge = require('merge');
-var Promise = require('promise');
 
 exports.name = 'octet';
 exports.outputFormat = 'html';
