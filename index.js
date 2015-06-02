@@ -16,16 +16,3 @@ exports.render = function (str, options, locals) {
     return result.res;
   }
 };
-
-exports.renderAsync = function (str, options, locals) {
-  return new Promise(function (fulfill, reject) {
-    octet(str, merge(options, locals), function (err, output) {
-      if (err) {
-        return reject(err);
-      }
-      else {
-        return fulfill(output);
-      }
-    });
-  });
-};
