@@ -20,10 +20,13 @@
     "type": "git",
     "url": "https://github.com/jstransformers/jstransformer-octet.git"
   },
-  "author": "Rob Loach <robloach@gmail.com>",
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
   "license": "MIT",
   "dependencies": {
-    "merge": "^1.2.0",
+    "extend": "^3.0.0",
     "octet": "^1.0.1"
   }
 }
