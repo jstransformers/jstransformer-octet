@@ -14,7 +14,7 @@
 ## API
 
 ```js
-var octet = require('jstransformer')(require('jstransformer-foo'))
+var octet = require('jstransformer')(require('jstransformer-octet'))
 
 var locals = {
   user: {
