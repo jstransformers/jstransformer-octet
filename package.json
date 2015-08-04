@@ -13,8 +13,8 @@
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
-    "test": "test-jstransformer",
-    "coverage": "test-jstransformer coverage"
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "extend": "^3.0.0",
-    "octet": "^1.0.1"
+    "extend-shallow": "^2.0.1",
+    "octet": "^2.0.0"
   }
 }
