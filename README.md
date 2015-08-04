@@ -22,8 +22,7 @@ var locals = {
   }
 };
 
-foo.render('<p><%this.user.name%></p>', {}, locals).body
-//=> <p>John</p>
+octet.render('<p><%this.user.name%></p>', {}, locals).body //=> <p>John</p>
 ```
 
 ## License
