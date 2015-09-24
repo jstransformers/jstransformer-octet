@@ -1,4 +1,7 @@
 {
+  "dependencies": {
+    "octet": "^3.0.0"
+  },
   "name": "jstransformer-octet",
   "version": "1.0.0",
   "description": "Octet support for JSTransformers",
@@ -24,8 +27,5 @@
     "name": "JSTransformers Team",
     "url": "http://github.com/orgs/jstransformers/people"
   },
-  "license": "MIT",
-  "dependencies": {
-    "octet": "^3.0.0"
-  }
+  "license": "MIT"
 }
