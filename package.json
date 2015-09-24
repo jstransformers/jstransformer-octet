@@ -26,7 +26,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "extend-shallow": "^2.0.1",
-    "octet": "^2.0.0"
+    "octet": "^3.0.0"
   }
 }
