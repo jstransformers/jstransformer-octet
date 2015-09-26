@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "octet": "^3.0.0"
-  },
   "name": "jstransformer-octet",
   "version": "1.0.0",
   "description": "Octet support for JSTransformers",
@@ -12,6 +9,9 @@
   "files": [
     "index.js"
   ],
+  "dependencies": {
+    "octet": "^3.0.0"
+  },
   "devDependencies": {
     "test-jstransformer": "^1.0.0"
   },
