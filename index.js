@@ -1,8 +1,8 @@
-'use strict';
+'use strict'
 
-var octet = require('octet');
+var octet = require('octet')
 
-exports.name = 'octet';
-exports.outputFormat = 'html';
+exports.name = 'octet'
+exports.outputFormat = 'html'
 
-exports.compile = octet.compile;
+exports.compile = octet.compile

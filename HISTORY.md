@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.1: 2016-12-24
+- Updated Boilerplate
+
 ## v2.0.0: 2015-09-26
 - Update to `octet@^3.0.0`
 

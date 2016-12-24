@@ -1,6 +1,9 @@
 {
+  "dependencies": {
+    "octet": "^3.0.0"
+  },
   "name": "jstransformer-octet",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Octet support for JSTransformers",
   "keywords": [
     "jstransformer",
@@ -9,15 +12,17 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
-    "octet": "^3.0.0"
-  },
   "devDependencies": {
-    "test-jstransformer": "^1.0.0"
+    "test-jstransformer": "^1.0.0",
+    "xo": "^0.17.1"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
-    "test": "test-jstransformer"
+    "test": "test-jstransformer",
+    "posttest": "xo --space --no-semicolon index.js"
+  },
+  "engines": {
+    "node": ">=4"
   },
   "repository": {
     "type": "git",
