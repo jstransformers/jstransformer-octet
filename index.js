@@ -1,6 +1,6 @@
 'use strict'
 
-var octet = require('octet')
+const octet = require('octet')
 
 exports.name = 'octet'
 exports.outputFormat = 'html'
