@@ -15,13 +15,13 @@
 ## API
 
 ```js
-var octet = require('jstransformer')(require('jstransformer-octet'));
+var octet = require('jstransformer')(require('jstransformer-octet'))
 
 var locals = {
   user: {
     name: 'John'
   }
-};
+}
 
 octet.render('<p><%this.user.name%></p>', {}, locals).body //=> <p>John</p>
 ```
